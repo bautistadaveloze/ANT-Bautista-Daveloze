@@ -1,116 +1,137 @@
-# 5 Productos o Servicios Reales que Utilizan Machine Learning
+# 🧠 Aplicaciones Reales de Machine Learning
+
+A continuación se presentan cinco productos reales que utilizan Machine Learning, explicando su aplicación, el tipo de aprendizaje que emplean y los datos necesarios para su funcionamiento.
 
 ---
 
-## 1. Netflix – Motor de Recomendación
+# 🎬 Caso 1 — Netflix
 
-### 📌 ¿Qué problema resuelve?
-Recomienda películas y series personalizadas para cada usuario, mejorando la experiencia y aumentando el tiempo de visualización.
+## 🔹 Aplicación
+Sistema de recomendación personalizado de películas y series.
 
-### 🤖 Tipo de Machine Learning
-**Supervisado**
+## 🔹 Problema que resuelve
+Ayuda a cada usuario a encontrar contenido relevante según sus gustos, mejorando la experiencia dentro de la plataforma.
 
-**¿Por qué?**  
-Porque el sistema aprende a partir de datos etiquetados (lo que los usuarios ven, califican o abandonan) para predecir qué contenido recomendar.
+## 🔹 Enfoque de ML
+**Aprendizaje Supervisado**
 
-### 📊 Datos que probablemente necesita
-- Historial de visualización
-- Calificaciones
-- Tiempo de reproducción
-- Búsquedas realizadas
-- Datos demográficos anónimos
+**Justificación:**  
+El sistema se entrena con datos históricos de comportamiento (contenido visto, calificaciones, tiempo de reproducción) para predecir futuras preferencias.
 
----
-
-## 2. Gmail – Filtro de Spam
-
-### 📌 ¿Qué problema resuelve?
-Detecta y filtra correos electrónicos no deseados (spam) automáticamente.
-
-### 🤖 Tipo de Machine Learning
-**Supervisado**
-
-**¿Por qué?**  
-Porque el modelo se entrena con millones de correos previamente clasificados como “spam” o “no spam”.
-
-### 📊 Datos que probablemente necesita
-- Texto del correo
-- Dirección del remitente
-- Enlaces incluidos
-- Archivos adjuntos
-- Comportamiento del usuario (marcar como spam)
+## 🔹 Datos utilizados
+- Historial de visualización  
+- Calificaciones otorgadas  
+- Tiempo de reproducción  
+- Búsquedas realizadas  
+- Datos demográficos anónimos  
 
 ---
 
-## 3. Uber – Predicción de Demanda y Precio Dinámico
+# 📧 Caso 2 — Gmail
 
-### 📌 ¿Qué problema resuelve?
-Predice la demanda de viajes y ajusta precios automáticamente según oferta y demanda.
+## 🔹 Aplicación
+Filtro automático de correos spam.
 
-### 🤖 Tipo de Machine Learning
-**Supervisado + Refuerzo**
+## 🔹 Problema que resuelve
+Clasifica correos electrónicos para evitar que mensajes no deseados lleguen a la bandeja principal.
 
-**¿Por qué?**
-- Supervisado: usa datos históricos de viajes para predecir demanda.
-- Refuerzo: ajusta decisiones dinámicamente según resultados (ej: reducir tiempos de espera).
+## 🔹 Enfoque de ML
+**Aprendizaje Supervisado**
 
-### 📊 Datos que probablemente necesita
-- Historial de viajes
-- Ubicación GPS
-- Hora y fecha
-- Tráfico
-- Clima
-- Conductores disponibles
+**Justificación:**  
+El modelo se entrena con millones de correos previamente etiquetados como “spam” o “no spam”.
 
----
-
-## 4. Mercado Libre (Argentina) – Recomendaciones y Detección de Fraude
-
-### 📌 ¿Qué problema resuelve?
-- Recomienda productos personalizados.
-- Detecta transacciones sospechosas para prevenir fraude.
-
-### 🤖 Tipo de Machine Learning
-**Supervisado**
-
-**¿Por qué?**  
-Se entrena con datos históricos de compras y fraudes previamente identificados para predecir comportamientos futuros.
-
-### 📊 Datos que probablemente necesita
-- Historial de compras
-- Búsquedas realizadas
-- Datos de transacciones
-- Ubicación del usuario
-- Tipo de dispositivo
-- Patrones de comportamiento
+## 🔹 Datos utilizados
+- Texto del mensaje  
+- Dirección del remitente  
+- Enlaces incluidos  
+- Archivos adjuntos  
+- Acciones del usuario (marcar como spam)  
 
 ---
 
-## 5. DASA (Brasil) – Interpretación de Prescripciones Médicas
+# 🚗 Caso 3 — Uber
 
-### 📌 ¿Qué problema resuelve?
-Digitaliza e interpreta recetas médicas automáticamente para mejorar la eficiencia del sistema de salud.
+## 🔹 Aplicación
+Predicción de demanda y sistema de precios dinámicos.
 
-### 🤖 Tipo de Machine Learning
-**Supervisado + Procesamiento de Lenguaje Natural (NLP)**
+## 🔹 Problema que resuelve
+Optimiza la asignación de conductores y ajusta tarifas según la oferta y demanda en tiempo real.
 
-**¿Por qué?**  
-Se entrena con ejemplos de recetas médicas correctamente interpretadas para aprender a reconocer texto médico.
+## 🔹 Enfoque de ML
+**Aprendizaje Supervisado + Aprendizaje por Refuerzo**
 
-### 📊 Datos que probablemente necesita
-- Texto de recetas médicas
-- Etiquetas con interpretaciones correctas
-- Base de datos de medicamentos
-- Datos anonimizados de pacientes
+**Justificación:**  
+- Supervisado: utiliza datos históricos de viajes para predecir demanda futura.  
+- Refuerzo: ajusta decisiones dinámicamente en función de resultados obtenidos (ejemplo: reducir tiempos de espera).
+
+## 🔹 Datos utilizados
+- Historial de viajes  
+- Ubicación GPS  
+- Fecha y hora  
+- Condiciones de tráfico  
+- Clima  
+- Conductores disponibles  
 
 ---
 
-# ✅ Resumen General
+# 🛒 Caso 4 — Mercado Libre (Argentina)
 
-| Producto/Servicio | Tipo de ML |
-|------------------|------------|
-| Netflix | Supervisado |
-| Gmail | Supervisado |
-| Uber | Supervisado + Refuerzo |
-| Mercado Libre | Supervisado |
-| DASA | Supervisado + NLP |
+## 🔹 Aplicación
+Sistema de recomendación y detección de fraude.
+
+## 🔹 Problema que resuelve
+- Sugiere productos personalizados.  
+- Identifica transacciones sospechosas para prevenir fraudes.
+
+## 🔹 Enfoque de ML
+**Aprendizaje Supervisado**
+
+**Justificación:**  
+Se entrena con datos históricos de compras y fraudes detectados para predecir comportamientos futuros.
+
+## 🔹 Datos utilizados
+- Historial de compras  
+- Búsquedas realizadas  
+- Información de transacciones  
+- Ubicación del usuario  
+- Tipo de dispositivo  
+- Patrones de comportamiento  
+
+---
+
+# 🏥 Caso 5 — DASA (Brasil)
+
+## 🔹 Aplicación
+Interpretación automática de prescripciones médicas.
+
+## 🔹 Problema que resuelve
+Digitaliza recetas médicas y mejora la eficiencia del sistema de salud.
+
+## 🔹 Enfoque de ML
+**Aprendizaje Supervisado + Procesamiento de Lenguaje Natural (NLP)**
+
+**Justificación:**  
+Se entrena con ejemplos de recetas correctamente interpretadas para reconocer texto médico y medicamentos.
+
+## 🔹 Datos utilizados
+- Texto de recetas médicas  
+- Etiquetas con interpretaciones correctas  
+- Base de datos de medicamentos  
+- Datos anonimizados de pacientes  
+
+---
+
+# 📊 Síntesis Comparativa
+
+| Empresa        | Aplicación Principal                     | Tipo de ML |
+|---------------|-------------------------------------------|------------|
+| Netflix       | Recomendación de contenido                | Supervisado |
+| Gmail         | Clasificación de spam                     | Supervisado |
+| Uber          | Predicción de demanda y precios dinámicos | Supervisado + Refuerzo |
+| Mercado Libre | Recomendaciones y detección de fraude     | Supervisado |
+| DASA          | Interpretación de recetas médicas         | Supervisado + NLP |
+
+---
+
+> En todos los casos, el Machine Learning permite analizar grandes volúmenes de datos para mejorar decisiones, personalizar servicios y optimizar procesos.
